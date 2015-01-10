@@ -114,6 +114,20 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
+			<Item Name="900" Type="Folder">
+				<Item Name="LogitechF510" Type="Folder">
+					<Item Name="F510-D.vi" Type="VI" URL="../900/LogitechF510/F510-D.vi"/>
+					<Item Name="F510-X.vi" Type="VI" URL="../900/LogitechF510/F510-X.vi"/>
+					<Item Name="F510.vi" Type="VI" URL="../900/LogitechF510/F510.vi"/>
+				</Item>
+				<Item Name="SwerveDrive" Type="Folder">
+					<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
+					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
+					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
+					<Item Name="SwerveDriveFace.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveFace.vi"/>
+					<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveRotate.vi"/>
+				</Item>
+			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -123,12 +137,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/Drive/LeastDistanceAngle.vi"/>
-		<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/Drive/OpenSwerveDrive.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="SwerveDrive.vi" Type="VI" URL="../900/Drive/SwerveDrive.vi"/>
-		<Item Name="SwerveDriveFace.vi" Type="VI" URL="../900/Drive/SwerveDriveFace.vi"/>
-		<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/Drive/SwerveDriveRotate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -588,9 +597,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="F510-D.vi" Type="VI" URL="../900/Logitech F510/F510-D.vi"/>
-			<Item Name="F510-X.vi" Type="VI" URL="../900/Logitech F510/F510-X.vi"/>
-			<Item Name="F510.vi" Type="VI" URL="../900/Logitech F510/F510.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
