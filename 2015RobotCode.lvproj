@@ -128,6 +128,7 @@ AddOutputFilter chunkFilter
 					<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveRotate.vi"/>
 				</Item>
 				<Item Name="TeleArm" Type="Folder">
+					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 				</Item>
 			</Item>
