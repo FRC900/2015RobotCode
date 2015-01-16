@@ -130,6 +130,7 @@ AddOutputFilter chunkFilter
 				<Item Name="TeleArm" Type="Folder">
 					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
+					<Item Name="Reverse.vi" Type="VI" URL="../900/TeleArm/Reverse.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
