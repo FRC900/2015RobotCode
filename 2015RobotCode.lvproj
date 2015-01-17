@@ -131,6 +131,7 @@ AddOutputFilter chunkFilter
 					<Item Name="ArcadeArmControl.vi" Type="VI" URL="../900/TeleArm/ArcadeArmControl.vi"/>
 					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="ArmControlPoly.vi" Type="VI" URL="../900/TeleArm/ArmControlPoly.vi"/>
+					<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 					<Item Name="Reverse.vi" Type="VI" URL="../900/TeleArm/Reverse.vi"/>
 				</Item>
@@ -145,7 +146,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
