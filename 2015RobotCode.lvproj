@@ -111,16 +111,18 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP-LabVIEW/navX-MXP Library/navX-MXP IMU.lvlib"/>
-		</Item>
-		<Item Name="Team Code" Type="Folder">
 			<Item Name="900" Type="Folder">
 				<Item Name="LogitechF510" Type="Folder">
 					<Item Name="F510-D.vi" Type="VI" URL="../900/LogitechF510/F510-D.vi"/>
 					<Item Name="F510-X.vi" Type="VI" URL="../900/LogitechF510/F510-X.vi"/>
 					<Item Name="F510.vi" Type="VI" URL="../900/LogitechF510/F510.vi"/>
 				</Item>
+				<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP-LabVIEW/navX-MXP Library/navX-MXP IMU.lvlib"/>
+			</Item>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+		</Item>
+		<Item Name="Team Code" Type="Folder">
+			<Item Name="900" Type="Folder">
 				<Item Name="SwerveDrive" Type="Folder">
 					<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
 					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
@@ -136,7 +138,6 @@ AddOutputFilter chunkFilter
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 					<Item Name="Reverse.vi" Type="VI" URL="../900/TeleArm/Reverse.vi"/>
 				</Item>
-				<Item Name="ButtonPress.vi" Type="VI" URL="../900/ButtonPress.vi"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -619,6 +620,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="OnButton.vi" Type="VI" URL="../900/LogitechF510/OnButton.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
