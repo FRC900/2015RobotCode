@@ -132,11 +132,11 @@ AddOutputFilter chunkFilter
 					<Item Name="ArcadeArmControl.vi" Type="VI" URL="../900/TeleArm/ArcadeArmControl.vi"/>
 					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="ArmControlPoly.vi" Type="VI" URL="../900/TeleArm/ArmControlPoly.vi"/>
-					<Item Name="Claw Control.vi" Type="VI" URL="../900/TeleArm/Claw Control.vi"/>
 					<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 					<Item Name="Reverse.vi" Type="VI" URL="../900/TeleArm/Reverse.vi"/>
 				</Item>
+				<Item Name="ButtonPress.vi" Type="VI" URL="../900/ButtonPress.vi"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -598,6 +598,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Claw Control.vi" Type="VI" URL="../900/TeleArm/Claw Control.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
