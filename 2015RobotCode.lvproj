@@ -150,6 +150,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SwerveGetRefnums.vi" Type="VI" URL="../900/SwerveDrive/SwerveGetRefnums.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -258,6 +259,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_UnloadC++StartupProgram.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UnloadC++StartupProgram.vi"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
@@ -603,6 +605,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="navX Board Information.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX Board Information.ctl"/>
 			<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
 			<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_OP_STATUS.ctl"/>
@@ -620,6 +623,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="OdometricNavigation.vi" Type="VI" URL="../900/SwerveDrive/OdometricNavigation.vi"/>
 			<Item Name="OnButton.vi" Type="VI" URL="../900/LogitechF510/OnButton.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
