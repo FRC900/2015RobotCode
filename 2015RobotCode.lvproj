@@ -129,6 +129,7 @@ AddOutputFilter chunkFilter
 					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
 					<Item Name="SwerveDriveFace.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveFace.vi"/>
 					<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveRotate.vi"/>
+					<Item Name="SwerveGetRefnums.vi" Type="VI" URL="../900/SwerveDrive/SwerveGetRefnums.vi"/>
 				</Item>
 				<Item Name="TeleArm" Type="Folder">
 					<Item Name="ArcadeArmControl.vi" Type="VI" URL="../900/TeleArm/ArcadeArmControl.vi"/>
@@ -150,7 +151,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="SwerveGetRefnums.vi" Type="VI" URL="../900/SwerveDrive/SwerveGetRefnums.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
