@@ -124,6 +124,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="900" Type="Folder">
 				<Item Name="SwerveDrive" Type="Folder">
+					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
 					<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
 					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
 					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
