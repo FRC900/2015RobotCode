@@ -591,11 +591,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="navX Board Information.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX Board Information.ctl"/>
-			<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
-			<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_OP_STATUS.ctl"/>
-			<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
-			<Item Name="navX Status Data.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX Status Data.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
