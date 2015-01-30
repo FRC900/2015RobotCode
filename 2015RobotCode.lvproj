@@ -127,6 +127,7 @@ AddOutputFilter chunkFilter
 				<Item Name="SwerveDrive" Type="Folder">
 					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
 					<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
+					<Item Name="NormalizeAngle.vi" Type="VI" URL="../900/SwerveDrive/NormalizeAngle.vi"/>
 					<Item Name="OdometricNavigation.vi" Type="VI" URL="../900/SwerveDrive/OdometricNavigation.vi"/>
 					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
 					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
@@ -139,6 +140,7 @@ AddOutputFilter chunkFilter
 					<Item Name="ArcadeArmControl.vi" Type="VI" URL="../900/TeleArm/ArcadeArmControl.vi"/>
 					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="ArmControlPoly.vi" Type="VI" URL="../900/TeleArm/ArmControlPoly.vi"/>
+					<Item Name="Claw Control.vi" Type="VI" URL="../900/TeleArm/Claw Control.vi"/>
 					<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 				</Item>
@@ -253,9 +255,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_getAllianceStation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getAllianceStation.vi"/>
 				<Item Name="NetComm_GetControllerPresence.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_GetControllerPresence.vi"/>
 				<Item Name="NetComm_getControlWord.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getControlWord.vi"/>
-				<Item Name="NetComm_getJoystickAxes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickAxes.vi"/>
-				<Item Name="NetComm_getJoystickButtons.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickButtons.vi"/>
-				<Item Name="NetComm_getJoystickPOVs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickPOVs.vi"/>
 				<Item Name="NetComm_ObserveUserProgramStarting.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ObserveUserProgramStarting.vi"/>
 				<Item Name="NetComm_SetErrorData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SetErrorData.vi"/>
 				<Item Name="NetComm_SetNewDataOccurrenceReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SetNewDataOccurrenceReference.vi"/>
@@ -494,7 +493,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetSetRefNum.vi"/>
-				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
@@ -586,16 +584,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Claw Control.vi" Type="VI" URL="../900/TeleArm/Claw Control.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="navX Board Information.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX Board Information.ctl"/>
-			<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
-			<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_OP_STATUS.ctl"/>
-			<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
-			<Item Name="navX Status Data.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX Status Data.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
