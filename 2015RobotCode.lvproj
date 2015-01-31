@@ -113,10 +113,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="900" Type="Folder">
 				<Item Name="LogitechF510" Type="Folder">
-					<Item Name="F510-D.vi" Type="VI" URL="../900/LogitechF510/F510-D.vi"/>
-					<Item Name="F510-X.vi" Type="VI" URL="../900/SwerveDrive/LogitechF510/F510-X.vi"/>
-					<Item Name="F510.vi" Type="VI" URL="../900/SwerveDrive/LogitechF510/F510.vi"/>
-					<Item Name="OnButton.vi" Type="VI" URL="../900/LogitechF510/OnButton.vi"/>
+					<Item Name="F510-D.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510-D.vi"/>
 				</Item>
 				<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP-LabVIEW/navX-MXP Library/navX-MXP IMU.lvlib"/>
 			</Item>
@@ -124,6 +121,11 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="900" Type="Folder">
+				<Item Name="Logitech" Type="Folder">
+					<Item Name="F510-X.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510-X.vi"/>
+					<Item Name="F510.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510.vi"/>
+					<Item Name="OnButton.vi" Type="VI" URL="../900/Team900-VIs/Logitech/OnButton.vi"/>
+				</Item>
 				<Item Name="SwerveDrive" Type="Folder">
 					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
 					<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
@@ -588,8 +590,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="F510-X.vi" Type="VI" URL="../900/LogitechF510/F510-X.vi"/>
-			<Item Name="F510.vi" Type="VI" URL="../900/LogitechF510/F510.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
