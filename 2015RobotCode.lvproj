@@ -158,6 +158,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
 		<Item Name="TunePID.vi" Type="VI" URL="../900/TunePID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -617,6 +618,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NormalizeJoystick.vi" Type="VI" URL="../900/Team900-VIs/Logitech/NormalizeJoystick.vi"/>
 			<Item Name="PDP Graph.vi" Type="VI" URL="../900/PDP Graph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
