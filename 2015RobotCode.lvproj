@@ -41,6 +41,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -127,21 +128,27 @@ AddOutputFilter chunkFilter
 					<Item Name="OnButton.vi" Type="VI" URL="../900/Team900-VIs/Logitech/OnButton.vi"/>
 				</Item>
 				<Item Name="SwerveDrive" Type="Folder">
-					<Item Name="CenterOfRotation.vi" Type="VI" URL="../900/SwerveDrive/CenterOfRotation.vi"/>
+					<Item Name="Supporting" Type="Folder">
+						<Item Name="Tuning" Type="Folder">
+							<Item Name="TunePID.vi" Type="VI" URL="../900/TunePID.vi"/>
+							<Item Name="SwerveDriveCalibrate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveCalibrate.vi"/>
+							<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
+						</Item>
+						<Item Name="ThreeWheelAvg.vi" Type="VI" URL="../900/SwerveDrive/ThreeWheelAvg.vi"/>
+						<Item Name="WheelAvg.vi" Type="VI" URL="../900/SwerveDrive/WheelAvg.vi"/>
+						<Item Name="NormalizeArray.vi" Type="VI" URL="../900/SwerveDrive/NormalizeArray.vi"/>
+						<Item Name="CenterOfRotation.vi" Type="VI" URL="../900/SwerveDrive/CenterOfRotation.vi"/>
+						<Item Name="NormalizeAngle.vi" Type="VI" URL="../900/SwerveDrive/NormalizeAngle.vi"/>
+						<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
+					</Item>
 					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
-					<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
-					<Item Name="NormalizeAngle.vi" Type="VI" URL="../900/SwerveDrive/NormalizeAngle.vi"/>
-					<Item Name="NormalizeArray.vi" Type="VI" URL="../900/SwerveDrive/NormalizeArray.vi"/>
 					<Item Name="OdometricNavigation.vi" Type="VI" URL="../900/SwerveDrive/OdometricNavigation.vi"/>
 					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
 					<Item Name="SaveOffsets.vi" Type="VI" URL="../900/SwerveDrive/SaveOffsets.vi"/>
 					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
-					<Item Name="SwerveDriveCalibrate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveCalibrate.vi"/>
 					<Item Name="SwerveDriveFace.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveFace.vi"/>
 					<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveRotate.vi"/>
 					<Item Name="SwerveGetRefnums.vi" Type="VI" URL="../900/SwerveDrive/SwerveGetRefnums.vi"/>
-					<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
-					<Item Name="TunePID.vi" Type="VI" URL="../900/TunePID.vi"/>
 				</Item>
 				<Item Name="TeleArm" Type="Folder">
 					<Item Name="ArcadeArmControl.vi" Type="VI" URL="../900/TeleArm/ArcadeArmControl.vi"/>
@@ -151,8 +158,10 @@ AddOutputFilter chunkFilter
 					<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 				</Item>
-				<Item Name="PDP Graph.vi" Type="VI" URL="../900/PDP Graph.vi"/>
-				<Item Name="TempLog.vi" Type="VI" URL="../900/TempLog.vi"/>
+				<Item Name="Logging" Type="Folder">
+					<Item Name="PDP Graph.vi" Type="VI" URL="../900/PDP Graph.vi"/>
+					<Item Name="TempLog.vi" Type="VI" URL="../900/TempLog.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -165,8 +174,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="ThreeWheelAvg.vi" Type="VI" URL="../900/SwerveDrive/ThreeWheelAvg.vi"/>
-		<Item Name="WheelAvg.vi" Type="VI" URL="../900/SwerveDrive/WheelAvg.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
