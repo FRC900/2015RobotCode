@@ -137,6 +137,7 @@ AddOutputFilter chunkFilter
 						<Item Name="WheelAvg.vi" Type="VI" URL="../900/SwerveDrive/WheelAvg.vi"/>
 						<Item Name="MotorOutputs.vi" Type="VI" URL="../900/SwerveDrive/MotorOutputs.vi"/>
 						<Item Name="NormalizeArray.vi" Type="VI" URL="../900/SwerveDrive/NormalizeArray.vi"/>
+						<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
 						<Item Name="CenterOfRotation.vi" Type="VI" URL="../900/SwerveDrive/CenterOfRotation.vi"/>
 						<Item Name="WheelGetAngle.vi" Type="VI" URL="../900/SwerveDrive/WheelGetAngle.vi"/>
 						<Item Name="NormalizeAngle.vi" Type="VI" URL="../900/SwerveDrive/NormalizeAngle.vi"/>
