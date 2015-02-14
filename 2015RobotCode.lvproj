@@ -132,11 +132,11 @@ AddOutputFilter chunkFilter
 						<Item Name="Tuning" Type="Folder">
 							<Item Name="TunePID.vi" Type="VI" URL="../900/TunePID.vi"/>
 							<Item Name="SwerveDriveCalibrate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveCalibrate.vi"/>
-							<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
 						</Item>
 						<Item Name="ThreeWheelAvg.vi" Type="VI" URL="../900/SwerveDrive/ThreeWheelAvg.vi"/>
 						<Item Name="WheelAvg.vi" Type="VI" URL="../900/SwerveDrive/WheelAvg.vi"/>
 						<Item Name="NormalizeArray.vi" Type="VI" URL="../900/SwerveDrive/NormalizeArray.vi"/>
+						<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
 						<Item Name="CenterOfRotation.vi" Type="VI" URL="../900/SwerveDrive/CenterOfRotation.vi"/>
 						<Item Name="NormalizeAngle.vi" Type="VI" URL="../900/SwerveDrive/NormalizeAngle.vi"/>
 						<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
