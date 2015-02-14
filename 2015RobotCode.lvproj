@@ -147,6 +147,7 @@ AddOutputFilter chunkFilter
 					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
 					<Item Name="OdometricNavigation.vi" Type="VI" URL="../900/SwerveDrive/OdometricNavigation.vi"/>
 					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
+					<Item Name="SwerveDriveTwoDrivers.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveTwoDrivers.vi"/>
 					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
 					<Item Name="SwerveDriveFace.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveFace.vi"/>
 					<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveRotate.vi"/>
