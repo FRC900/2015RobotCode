@@ -144,7 +144,6 @@ AddOutputFilter chunkFilter
 						<Item Name="SaveOffsets.vi" Type="VI" URL="../900/SwerveDrive/SaveOffsets.vi"/>
 						<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
 					</Item>
-					<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
 					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
 					<Item Name="OdometricNavigation.vi" Type="VI" URL="../900/SwerveDrive/OdometricNavigation.vi"/>
 					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
