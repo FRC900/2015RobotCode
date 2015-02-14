@@ -132,19 +132,21 @@ AddOutputFilter chunkFilter
 						<Item Name="Tuning" Type="Folder">
 							<Item Name="TunePID.vi" Type="VI" URL="../900/TunePID.vi"/>
 							<Item Name="SwerveDriveCalibrate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveCalibrate.vi"/>
-							<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
 						</Item>
 						<Item Name="ThreeWheelAvg.vi" Type="VI" URL="../900/SwerveDrive/ThreeWheelAvg.vi"/>
 						<Item Name="WheelAvg.vi" Type="VI" URL="../900/SwerveDrive/WheelAvg.vi"/>
+						<Item Name="MotorOutputs.vi" Type="VI" URL="../900/SwerveDrive/MotorOutputs.vi"/>
 						<Item Name="NormalizeArray.vi" Type="VI" URL="../900/SwerveDrive/NormalizeArray.vi"/>
 						<Item Name="CenterOfRotation.vi" Type="VI" URL="../900/SwerveDrive/CenterOfRotation.vi"/>
+						<Item Name="WheelGetAngle.vi" Type="VI" URL="../900/SwerveDrive/WheelGetAngle.vi"/>
 						<Item Name="NormalizeAngle.vi" Type="VI" URL="../900/SwerveDrive/NormalizeAngle.vi"/>
+						<Item Name="SaveOffsets.vi" Type="VI" URL="../900/SwerveDrive/SaveOffsets.vi"/>
 						<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
 					</Item>
+					<Item Name="SwerveMath.vi" Type="VI" URL="../900/SwerveDrive/SwerveMath.vi"/>
 					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
 					<Item Name="OdometricNavigation.vi" Type="VI" URL="../900/SwerveDrive/OdometricNavigation.vi"/>
 					<Item Name="OpenSwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/OpenSwerveDrive.vi"/>
-					<Item Name="SaveOffsets.vi" Type="VI" URL="../900/SwerveDrive/SaveOffsets.vi"/>
 					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
 					<Item Name="SwerveDriveFace.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveFace.vi"/>
 					<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveRotate.vi"/>
@@ -671,11 +673,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="navX Board Information.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX Board Information.ctl"/>
-			<Item Name="navX NAVX_CAL_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_CAL_STATUS.ctl"/>
-			<Item Name="navX NAVX_OP_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_OP_STATUS.ctl"/>
-			<Item Name="navX NAVX_SENSOR_STATUS.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX NAVX_SENSOR_STATUS.ctl"/>
-			<Item Name="navX Status Data.ctl" Type="VI" URL="../navX-MXP-LabVIEW/navX-MXP Library/COMMON/TypeDefs/navX Status Data.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
