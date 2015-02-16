@@ -143,6 +143,7 @@ AddOutputFilter chunkFilter
 						<Item Name="NormalizeAngle.vi" Type="VI" URL="../900/SwerveDrive/NormalizeAngle.vi"/>
 						<Item Name="SaveOffsets.vi" Type="VI" URL="../900/SwerveDrive/SaveOffsets.vi"/>
 						<Item Name="LeastDistanceAngle.vi" Type="VI" URL="../900/SwerveDrive/LeastDistanceAngle.vi"/>
+						<Item Name="YawOverflows.vi" Type="VI" URL="../900/SwerveDrive/YawOverflows.vi"/>
 					</Item>
 					<Item Name="GoToCoordinate.vi" Type="VI" URL="../900/SwerveDrive/GoToCoordinate.vi"/>
 					<Item Name="OdometricNavigation.vi" Type="VI" URL="../900/SwerveDrive/OdometricNavigation.vi"/>
@@ -150,6 +151,7 @@ AddOutputFilter chunkFilter
 					<Item Name="SwerveDriveTwoDrivers.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveTwoDrivers.vi"/>
 					<Item Name="SwerveDrive.vi" Type="VI" URL="../900/SwerveDrive/SwerveDrive.vi"/>
 					<Item Name="SwerveDriveFace.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveFace.vi"/>
+					<Item Name="SwerveDriveFuse.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveFuse.vi"/>
 					<Item Name="SwerveDriveRotate.vi" Type="VI" URL="../900/SwerveDrive/SwerveDriveRotate.vi"/>
 					<Item Name="SwerveGetRefnums.vi" Type="VI" URL="../900/SwerveDrive/SwerveGetRefnums.vi"/>
 				</Item>
@@ -177,7 +179,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="YawOverflows.vi" Type="VI" URL="../900/SwerveDrive/YawOverflows.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -688,6 +689,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NormalizeJoystick.vi" Type="VI" URL="../900/Team900-VIs/Logitech/NormalizeJoystick.vi"/>
+			<Item Name="ArmControlCalibrate.vi" Type="VI" URL="../900/TeleArm/ArmControlCalibrate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -706,7 +708,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
