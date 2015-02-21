@@ -719,11 +719,12 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Engineering/Documents/LabVIEW Data/NI_AB_PROJECTNAME/Builds</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -733,7 +734,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E0FBBE7B-6355-4F7E-BD50-C7CDB4369F71}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{04B4B8E5-BFED-40D5-AF0D-66413DD7306A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
