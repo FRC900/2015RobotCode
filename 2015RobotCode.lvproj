@@ -688,6 +688,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NT Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean.vi"/>
 				<Item Name="NT Read Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Value.vi"/>
 				<Item Name="WPI_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ChangeMode.vi"/>
+				<Item Name="WPI_CANTalonSRX_ConfigLimitSwitches.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ConfigLimitSwitches.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
