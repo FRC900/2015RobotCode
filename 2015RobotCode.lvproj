@@ -168,8 +168,8 @@ AddOutputFilter chunkFilter
 					<Item Name="PDP Graph.vi" Type="VI" URL="../900/PDP Graph.vi"/>
 					<Item Name="TempLog.vi" Type="VI" URL="../900/TempLog.vi"/>
 				</Item>
+				<Item Name="LoadOffsets.vi" Type="VI" URL="../900/LoadOffsets.vi"/>
 			</Item>
-			<Item Name="LoadOffsets.vi" Type="VI" URL="../900/LoadOffsets.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -673,6 +673,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="FPGA_UtilitiesRead UserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead UserButton.vi"/>
 				<Item Name="WPI_UtilitiesFRC ReadUserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC ReadUserButton.vi"/>
+				<Item Name="WPI_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ChangeMode.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
