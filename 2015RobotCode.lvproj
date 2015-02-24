@@ -160,6 +160,7 @@ AddOutputFilter chunkFilter
 					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="ArmControlPoly.vi" Type="VI" URL="../900/TeleArm/ArmControlPoly.vi"/>
 					<Item Name="ArmControlCalibrate.vi" Type="VI" URL="../900/TeleArm/ArmControlCalibrate.vi"/>
+					<Item Name="ArmControlManual.vi" Type="VI" URL="../900/TeleArm/ArmControlManual.vi"/>
 					<Item Name="Claw Control.vi" Type="VI" URL="../900/TeleArm/Claw Control.vi"/>
 					<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
