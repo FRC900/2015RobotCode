@@ -164,6 +164,7 @@ AddOutputFilter chunkFilter
 					<Item Name="Claw Control.vi" Type="VI" URL="../900/TeleArm/Claw Control.vi"/>
 					<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
+					<Item Name="ClawGetStatus.vi" Type="VI" URL="../900/TeleArm/ClawGetStatus.vi"/>
 				</Item>
 				<Item Name="Logging" Type="Folder">
 					<Item Name="PDP Graph.vi" Type="VI" URL="../900/PDP Graph.vi"/>
@@ -183,6 +184,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="WristControl.vi" Type="VI" URL="../900/TeleArm/WristControl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -705,6 +707,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="NormalizeJoystick.vi" Type="VI" URL="../900/Team900-VIs/Logitech/NormalizeJoystick.vi"/>
 			<Item Name="VisionBinCoordinates.vi" Type="VI" URL="../900/VisionBinCoordinates.vi"/>
+			<Item Name="MaxHeight.vi" Type="VI" URL="../900/TeleArm/MaxHeight.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
