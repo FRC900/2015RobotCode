@@ -125,6 +125,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Logitech" Type="Folder">
 					<Item Name="F510-X.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510-X.vi"/>
 					<Item Name="F510.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510.vi"/>
+					<Item Name="NormalizeJoystick.vi" Type="VI" URL="../900/Team900-VIs/Logitech/NormalizeJoystick.vi"/>
 					<Item Name="OnButton.vi" Type="VI" URL="../900/Team900-VIs/Logitech/OnButton.vi"/>
 				</Item>
 				<Item Name="SwerveDrive" Type="Folder">
@@ -164,6 +165,7 @@ AddOutputFilter chunkFilter
 					<Item Name="Claw Control.vi" Type="VI" URL="../900/TeleArm/Claw Control.vi"/>
 					<Item Name="Extension Control.vi" Type="VI" URL="../900/TeleArm/Extension Control.vi"/>
 					<Item Name="GoToTarget.vi" Type="VI" URL="../900/TeleArm/GoToTarget.vi"/>
+					<Item Name="MaxHeight.vi" Type="VI" URL="../900/TeleArm/MaxHeight.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 					<Item Name="ClawGetStatus.vi" Type="VI" URL="../900/TeleArm/ClawGetStatus.vi"/>
 					<Item Name="WristControl.vi" Type="VI" URL="../900/TeleArm/WristControl.vi"/>
@@ -174,6 +176,7 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="LoadOffsets.vi" Type="VI" URL="../900/LoadOffsets.vi"/>
 				<Item Name="ifNanUseLastValue.vi" Type="VI" URL="../900/ifNanUseLastValue.vi"/>
+				<Item Name="VisionBinCoordinates.vi" Type="VI" URL="../900/VisionBinCoordinates.vi"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -186,6 +189,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SoftLimits.vi" Type="VI" URL="../900/TeleArm/SoftLimits.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -707,9 +711,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NormalizeJoystick.vi" Type="VI" URL="../900/Team900-VIs/Logitech/NormalizeJoystick.vi"/>
-			<Item Name="VisionBinCoordinates.vi" Type="VI" URL="../900/VisionBinCoordinates.vi"/>
-			<Item Name="MaxHeight.vi" Type="VI" URL="../900/TeleArm/MaxHeight.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
