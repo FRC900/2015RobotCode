@@ -114,18 +114,18 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="900" Type="Folder">
 				<Item Name="LogitechF510" Type="Folder">
-					<Item Name="F510-D.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/F510/F510-D.vi"/>
+					<Item Name="F510-D.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510-D.vi"/>
 				</Item>
-				<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../../2015RobotCode/navX-MXP-LabVIEW/navX-MXP Library/navX-MXP IMU.lvlib"/>
+				<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP-LabVIEW/navX-MXP Library/navX-MXP IMU.lvlib"/>
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="900" Type="Folder">
 				<Item Name="Logitech" Type="Folder">
-					<Item Name="F510-X.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/F510/F510-X.vi"/>
-					<Item Name="F510.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/F510/F510.vi"/>
-					<Item Name="NormalizeJoystick.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/NormalizeJoystick.vi"/>
+					<Item Name="F510-X.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510-X.vi"/>
+					<Item Name="F510.vi" Type="VI" URL="../900/Team900-VIs/Logitech/F510/F510.vi"/>
+					<Item Name="NormalizeJoystick.vi" Type="VI" URL="../900/Team900-VIs/Logitech/NormalizeJoystick.vi"/>
 					<Item Name="OnButton.vi" Type="VI" URL="../900/Team900-VIs/Logitech/OnButton.vi"/>
 				</Item>
 				<Item Name="SwerveDrive" Type="Folder">
@@ -695,6 +695,10 @@ AddOutputFilter chunkFilter
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="WPI_AnalogChannelRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Get.vi"/>
 				<Item Name="WPI_DriverStationOutputsEnabled.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationOutputsEnabled.vi"/>
+				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
+				<Item Name="NetComm_getJoystickAxes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickAxes.vi"/>
+				<Item Name="NetComm_getJoystickButtons.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickButtons.vi"/>
+				<Item Name="NetComm_getJoystickPOVs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickPOVs.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -712,8 +716,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP-LabVIEW/navX-MXP Library/navX-MXP IMU.lvlib"/>
-			<Item Name="OnButton.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/OnButton.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
