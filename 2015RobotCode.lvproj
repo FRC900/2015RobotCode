@@ -171,6 +171,7 @@ AddOutputFilter chunkFilter
 					<Item Name="SoftLimits.vi" Type="VI" URL="../900/TeleArm/SoftLimits.vi"/>
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 					<Item Name="ClawGetStatus.vi" Type="VI" URL="../900/TeleArm/ClawGetStatus.vi"/>
+					<Item Name="OverflowOffset.vi" Type="VI" URL="../900/TeleArm/OverflowOffset.vi"/>
 					<Item Name="WristControl.vi" Type="VI" URL="../900/TeleArm/WristControl.vi"/>
 				</Item>
 				<Item Name="Logging" Type="Folder">
@@ -194,6 +195,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="breakouttest.vi" Type="VI" URL="../../breakouttest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -716,9 +718,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="F510.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/F510/F510.vi"/>
-			<Item Name="F510-D.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/F510/F510-D.vi"/>
-			<Item Name="F510-X.vi" Type="VI" URL="../../2015RobotCode/900/Team900-VIs/Logitech/F510/F510-X.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
