@@ -178,8 +178,8 @@ AddOutputFilter chunkFilter
 					<Item Name="PDP Graph.vi" Type="VI" URL="../900/PDP Graph.vi"/>
 					<Item Name="TempLog.vi" Type="VI" URL="../900/TempLog.vi"/>
 				</Item>
-				<Item Name="LoadOffsets.vi" Type="VI" URL="../900/LoadOffsets.vi"/>
 				<Item Name="ifNanUseLastValue.vi" Type="VI" URL="../900/ifNanUseLastValue.vi"/>
+				<Item Name="LoadOffsets.vi" Type="VI" URL="../900/LoadOffsets.vi"/>
 				<Item Name="PDPLogging.vi" Type="VI" URL="../900/PDPLogging.vi"/>
 				<Item Name="VariableIncreaseOverTime.vi" Type="VI" URL="../900/VariableIncreaseOverTime.vi"/>
 				<Item Name="VisionBinCoordinates.vi" Type="VI" URL="../900/VisionBinCoordinates.vi"/>
