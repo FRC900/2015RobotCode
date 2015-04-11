@@ -161,6 +161,7 @@ AddOutputFilter chunkFilter
 					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="ArmControlPoly.vi" Type="VI" URL="../900/TeleArm/ArmControlPoly.vi"/>
 					<Item Name="ArmControlCalibrate.vi" Type="VI" URL="../900/TeleArm/ArmControlCalibrate.vi"/>
+					<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 					<Item Name="ArmControlManual.vi" Type="VI" URL="../900/TeleArm/ArmControlManual.vi"/>
 					<Item Name="ArmGetRefs.vi" Type="VI" URL="../900/TeleArm/ArmGetRefs.vi"/>
 					<Item Name="ArmGetStatus.vi" Type="VI" URL="../900/TeleArm/ArmGetStatus.vi"/>
@@ -194,7 +195,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -748,7 +748,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{04B4B8E5-BFED-40D5-AF0D-66413DD7306A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Target/Team Code/900/TeleArm/Robot Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
