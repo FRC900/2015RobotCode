@@ -161,7 +161,6 @@ AddOutputFilter chunkFilter
 					<Item Name="ArmControl.vi" Type="VI" URL="../900/TeleArm/ArmControl.vi"/>
 					<Item Name="ArmControlPoly.vi" Type="VI" URL="../900/TeleArm/ArmControlPoly.vi"/>
 					<Item Name="ArmControlCalibrate.vi" Type="VI" URL="../900/TeleArm/ArmControlCalibrate.vi"/>
-					<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 					<Item Name="ArmControlManual.vi" Type="VI" URL="../900/TeleArm/ArmControlManual.vi"/>
 					<Item Name="ArmGetRefs.vi" Type="VI" URL="../900/TeleArm/ArmGetRefs.vi"/>
 					<Item Name="ArmGetStatus.vi" Type="VI" URL="../900/TeleArm/ArmGetStatus.vi"/>
@@ -174,6 +173,7 @@ AddOutputFilter chunkFilter
 					<Item Name="OpenArm.vi" Type="VI" URL="../900/TeleArm/OpenArm.vi"/>
 					<Item Name="OverflowOffset.vi" Type="VI" URL="../900/TeleArm/OverflowOffset.vi"/>
 					<Item Name="WristControl.vi" Type="VI" URL="../900/TeleArm/WristControl.vi"/>
+					<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 				</Item>
 				<Item Name="Logging" Type="Folder">
 					<Item Name="PDP Graph.vi" Type="VI" URL="../900/PDP Graph.vi"/>
@@ -188,13 +188,13 @@ AddOutputFilter chunkFilter
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -735,7 +735,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -748,7 +748,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{04B4B8E5-BFED-40D5-AF0D-66413DD7306A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Target/Team Code/900/TeleArm/Robot Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
